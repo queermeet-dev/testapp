@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1369592C2990C600B71159 /* queermeetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1369582C2990C600B71159 /* queermeetApp.swift */; };
+		6F13695B2C2990C600B71159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F13695A2C2990C600B71159 /* ContentView.swift */; };
+		6F13695D2C2990C700B71159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F13695C2C2990C700B71159 /* Assets.xcassets */; };
+		6F1369612C2990C700B71159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1369602C2990C700B71159 /* Preview Assets.xcassets */; };
+		6F13696B2C2990C700B71159 /* queermeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F13696A2C2990C700B71159 /* queermeetTests.swift */; };
+		6F1369752C2990C700B71159 /* queermeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1369742C2990C700B71159 /* queermeetUITests.swift */; };
+		6F1369772C2990C700B71159 /* queermeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1369762C2990C700B71159 /* queermeetUITestsLaunchTests.swift */; };
+		6FE57C532C29923A00A39299 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE57C522C29923A00A39299 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1369672C2990C700B71159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F13694D2C2990C600B71159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1369542C2990C600B71159;
+			remoteInfo = queermeet;
+		};
+		6F1369712C2990C700B71159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F13694D2C2990C600B71159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1369542C2990C600B71159;
+			remoteInfo = queermeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FE57C642C29951200A39299 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F1369552C2990C600B71159 /* queermeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = queermeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1369582C2990C600B71159 /* queermeetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queermeetApp.swift; sourceTree = "<group>"; };
+		6F13695A2C2990C600B71159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F13695C2C2990C700B71159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F13695E2C2990C700B71159 /* queermeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = queermeet.entitlements; sourceTree = "<group>"; };
+		6F1369602C2990C700B71159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F1369662C2990C700B71159 /* queermeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = queermeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F13696A2C2990C700B71159 /* queermeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queermeetTests.swift; sourceTree = "<group>"; };
+		6F1369702C2990C700B71159 /* queermeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = queermeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1369742C2990C700B71159 /* queermeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queermeetUITests.swift; sourceTree = "<group>"; };
+		6F1369762C2990C700B71159 /* queermeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queermeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FE57C522C29923A00A39299 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6FE57C542C29930500A39299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1369522C2990C600B71159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1369632C2990C700B71159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F13696D2C2990C700B71159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F02FE732C55249E00A18611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F13694C2C2990C600B71159 = {
+			isa = PBXGroup;
+			children = (
+				6F1369572C2990C600B71159 /* queermeet */,
+				6F1369692C2990C700B71159 /* queermeetTests */,
+				6F1369732C2990C700B71159 /* queermeetUITests */,
+				6F1369562C2990C600B71159 /* Products */,
+				6F02FE732C55249E00A18611 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1369562C2990C600B71159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1369552C2990C600B71159 /* queermeet.app */,
+				6F1369662C2990C700B71159 /* queermeetTests.xctest */,
+				6F1369702C2990C700B71159 /* queermeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1369572C2990C600B71159 /* queermeet */ = {
+			isa = PBXGroup;
+			children = (
+				6FE57C542C29930500A39299 /* Info.plist */,
+				6F1369582C2990C600B71159 /* queermeetApp.swift */,
+				6FE57C522C29923A00A39299 /* WebView.swift */,
+				6F13695A2C2990C600B71159 /* ContentView.swift */,
+				6F13695C2C2990C700B71159 /* Assets.xcassets */,
+				6F13695E2C2990C700B71159 /* queermeet.entitlements */,
+				6F13695F2C2990C700B71159 /* Preview Content */,
+			);
+			path = queermeet;
+			sourceTree = "<group>";
+		};
+		6F13695F2C2990C700B71159 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F1369602C2990C700B71159 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F1369692C2990C700B71159 /* queermeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F13696A2C2990C700B71159 /* queermeetTests.swift */,
+			);
+			path = queermeetTests;
+			sourceTree = "<group>";
+		};
+		6F1369732C2990C700B71159 /* queermeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1369742C2990C700B71159 /* queermeetUITests.swift */,
+				6F1369762C2990C700B71159 /* queermeetUITestsLaunchTests.swift */,
+			);
+			path = queermeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1369542C2990C600B71159 /* queermeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F13697A2C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeet" */;
+			buildPhases = (
+				6F1369512C2990C600B71159 /* Sources */,
+				6F1369522C2990C600B71159 /* Frameworks */,
+				6F1369532C2990C600B71159 /* Resources */,
+				6FE57C642C29951200A39299 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = queermeet;
+			packageProductDependencies = (
+			);
+			productName = queermeet;
+			productReference = 6F1369552C2990C600B71159 /* queermeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F1369652C2990C700B71159 /* queermeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F13697D2C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeetTests" */;
+			buildPhases = (
+				6F1369622C2990C700B71159 /* Sources */,
+				6F1369632C2990C700B71159 /* Frameworks */,
+				6F1369642C2990C700B71159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1369682C2990C700B71159 /* PBXTargetDependency */,
+			);
+			name = queermeetTests;
+			productName = queermeetTests;
+			productReference = 6F1369662C2990C700B71159 /* queermeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F13696F2C2990C700B71159 /* queermeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1369802C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeetUITests" */;
+			buildPhases = (
+				6F13696C2C2990C700B71159 /* Sources */,
+				6F13696D2C2990C700B71159 /* Frameworks */,
+				6F13696E2C2990C700B71159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1369722C2990C700B71159 /* PBXTargetDependency */,
+			);
+			name = queermeetUITests;
+			productName = queermeetUITests;
+			productReference = 6F1369702C2990C700B71159 /* queermeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F13694D2C2990C600B71159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6F1369542C2990C600B71159 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6F1369652C2990C700B71159 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6F1369542C2990C600B71159;
+					};
+					6F13696F2C2990C700B71159 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6F1369542C2990C600B71159;
+					};
+				};
+			};
+			buildConfigurationList = 6F1369502C2990C600B71159 /* Build configuration list for PBXProject "queermeet" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F13694C2C2990C600B71159;
+			packageReferences = (
+			);
+			productRefGroup = 6F1369562C2990C600B71159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1369542C2990C600B71159 /* queermeet */,
+				6F1369652C2990C700B71159 /* queermeetTests */,
+				6F13696F2C2990C700B71159 /* queermeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1369532C2990C600B71159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1369612C2990C700B71159 /* Preview Assets.xcassets in Resources */,
+				6F13695D2C2990C700B71159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1369642C2990C700B71159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F13696E2C2990C700B71159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1369512C2990C600B71159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE57C532C29923A00A39299 /* WebView.swift in Sources */,
+				6F13695B2C2990C600B71159 /* ContentView.swift in Sources */,
+				6F1369592C2990C600B71159 /* queermeetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1369622C2990C700B71159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F13696B2C2990C700B71159 /* queermeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F13696C2C2990C700B71159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1369772C2990C700B71159 /* queermeetUITestsLaunchTests.swift in Sources */,
+				6F1369752C2990C700B71159 /* queermeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1369682C2990C700B71159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1369542C2990C600B71159 /* queermeet */;
+			targetProxy = 6F1369672C2990C700B71159 /* PBXContainerItemProxy */;
+		};
+		6F1369722C2990C700B71159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1369542C2990C600B71159 /* queermeet */;
+			targetProxy = 6F1369712C2990C700B71159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F1369782C2990C700B71159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F1369792C2990C700B71159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6F13697B2C2990C700B71159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = queermeet/queermeet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"queermeet/Preview Content\"";
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = queermeet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = queermeet;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F13697C2C2990C700B71159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = queermeet/queermeet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"queermeet/Preview Content\"";
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = queermeet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = queermeet;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F13697E2C2990C700B71159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/queermeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/queermeet";
+			};
+			name = Debug;
+		};
+		6F13697F2C2990C700B71159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/queermeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/queermeet";
+			};
+			name = Release;
+		};
+		6F1369812C2990C700B71159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = queermeet;
+			};
+			name = Debug;
+		};
+		6F1369822C2990C700B71159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65K3T5UN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qm1.queermeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = queermeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1369502C2990C600B71159 /* Build configuration list for PBXProject "queermeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1369782C2990C700B71159 /* Debug */,
+				6F1369792C2990C700B71159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F13697A2C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F13697B2C2990C700B71159 /* Debug */,
+				6F13697C2C2990C700B71159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F13697D2C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F13697E2C2990C700B71159 /* Debug */,
+				6F13697F2C2990C700B71159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1369802C2990C700B71159 /* Build configuration list for PBXNativeTarget "queermeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1369812C2990C700B71159 /* Debug */,
+				6F1369822C2990C700B71159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F13694D2C2990C600B71159 /* Project object */;
+}
